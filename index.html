@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>表单</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta name="keywords" content="Flat Feedback Form  Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+    /> -->
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="kido_BMB">
+                <a id="baoMing" href="#">报名表</a>
+            </li>
+            <li id="huaDong_BMB">
+                <a href="#">活动报名表</a>
+            </li>
+        </ul>
+    </nav>
+    <!---header--->
+    <div class="header w3ls">
+        <h1>报名表</h1>
+    </div>
+    <!---header--->
+    <!---main--->
+    <div class="main">
+        <div class="main-section agile">
+            <div class="login-form">
+                <h2>kido</h2>
+                <p>请填写你的表单，
+                    <a id="xing">*</a>为必填</p>
+                <div>
+                    <ul>
+                        <li id="name" class="text-info" style="width: 296px;">姓名 :&nbsp;<a id="xing">*</a></li>
+                        <li class="min_input"><input id="i_name" type="text" maxlength="4" value=""><span id="name_span"></span></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul>
+                        <li id="age" class="text-info" style="width: 296px;">年龄 :&nbsp;<a id="xing">*</a></li>
+                        <li class="min_input"><input id="i_age" type="text" maxlength="3" value=""><span id="age_span"></span></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul>
+                        <li id="xingBie" class="text-info">性别 :&nbsp;<a id="xing">*</a></li>
+                        <li id="XB" style="color: rgb(82, 82, 82);">
+                            <input id="i_XB" style="margin: 13px 0 0 -140px;" type="radio" checked="checked" name="1" />男
+                            <input id="i_XB" style="margin-left: 40px;" type="radio" name="1" />女</li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul>
+                        <li id="number" class="text-info" style="width: 296px;">手机号 :&nbsp;<a id="xing">*</a></li>
+                        <li class="min_input"><input id="i_Num" type="text" maxlength="11" value=""><span id="phone_text_span"></span></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul>
+                        <li id="VX" class="text-info" style="width: 296px;">微信号 :&nbsp;<a id="xing">*</a></li>
+                        <li class="min_input"><input id="i_VX" type="text" required value=""></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul>
+                        <li id="email" class="text-info" style="width: 296px;">邮箱 :</li>
+                        <li class="min_input"><input id="i_email" type="text" value=""><span id="email_text_span"></span></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul id="JG">
+                        <li id="jiGuan" class="text-info" style="width: 296px;">籍贯 :&nbsp;<a id="xing">*</a></li>
+                        <li class="zhong_input"><input id="i_JG" type="text" placeholder="" required value=""></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul id="ZZ">
+                        <li id="address" class="text-info" style="width: 296px;">现住址 :</li>
+                        <li class="zhong_input"><input id="i_ZZ" type="text" placeholder="" required value=""></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul id="ID">
+                        <li id="ID" class="text-info" style="width: 296px;">身份证号码 :&nbsp;<a id="xing">*</a></li>
+                        <li class="zhong_input"><input id="i_ID" type="text" name="contact" placeholder="" required value=""><span id="i_ID_text_span"></span></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div id="JHR">
+                        <ul>
+                            <li id="JZ_name" class="text-info" style="width: 296px;">家长/监护人姓名 :&nbsp;<a id="xing">*</a></li>
+                            <li class="min_input"><input id="i_JZ_Name" type="text" name="number" placeholder="" required value=""></li>
+                            <div class="clear"></div>
+                        </ul>
+                        <ul>
+                            <li id="ZJ_number" class="text-info" style="width: 296px;">家长/监护人手机号 :&nbsp;<a id="xing">*</a></li>
+                            <li class="min_input"><input id="i_JZ_Number" type="text" name="number" placeholder="" required value=""><span id="J_phone_num_span"></span></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li id="liuYan_jingLi" style="width: 198px;" class="text-info">留言</li>
+                        <li class="max_input"><textarea id="i_liuYan"></textarea></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <div id="WT">
+                        <ul>
+                            <li id="question" style="width: 290px;" class="text-info">你是通过什么渠道知道实务学堂的呢？&nbsp;<a id="xing">*</a></li>
+                            <li class="max_input"><textarea id="i_question"></textarea></li>
+                            <div class="clear"></div>
+                        </ul>
+                        <ul>
+                            <li id="question_1" style="width: 198px;" class="text-info">你为什么想来实务学堂？&nbsp;<a id="xing">*</a></li>
+                            <li class="max_input"><textarea id="i_question_1"></textarea></li>
+                            <div class="clear"></div>
+                        </ul>
+                        <ul>
+                            <li id="question_2" style="width: 325px;" class="text-info">你期待在实务学堂学习得到什么样的成长？&nbsp;<a id="xing">*</a></li>
+                            <li class="max_input"><textarea id="i_question_2"></textarea></li>
+                            <div class="clear"></div>
+                        </ul>
+                        <ul>
+                            <li id="interviews" class="text-info">支持面试的方式&nbsp;<a id="xing">*</a></li>
+                            <li id="Mode" style="color: rgb(82, 82, 82);">
+                                <input style="margin: 13px 0 0 -90px;" type="radio" checked="checked" name="mode" />线下面试
+                                <input style="margin-left: 20px;" type="radio" name="mode" />视频面试
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <button id="btn">提交</button>
+                    <button style="display: none;" id="btn_2">提交</button>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer w3agile">
+            <p>&copy 2021 kido</p>
+        </div>
+</body>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
