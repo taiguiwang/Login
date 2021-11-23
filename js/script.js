@@ -78,14 +78,20 @@ function btn() {
         value_mode = "视频面试"
     }
     todo.set('Mode', value_mode);
-
     // 将对象保存到云端
     todo.save().then((todo) => {
         // 成功保存之后，执行其他逻辑
-        console.log(`保存成功。objectId：${todo.id}`);
+        // console.log(`保存成功。objectId：${todo.id}`);
+        alert("提交成功！");
+        //注册成功后刷新网页
+        location.reload();
     }, (error) => {
         // 异常处理
-        console.log("失败");
+        // console.log("失败");
+        alert("提交失败！");
+
+        //注册成功后刷新网页
+        location.reload();
     });
 }
 //活动报名表
@@ -129,11 +135,21 @@ function btn_2() {
     // 将对象保存到云端
     huoDong_2.save().then((huoDong_2) => {
         // 成功保存之后，执行其他逻辑
-        console.log(`保存成功。objectId：${huoDong_2.id}`);
+        // console.log(`保存成功。objectId：${huoDong_2.id}`);
+        alert("提交成功！");
+        //注册成功后刷新网页
+        location.reload();
     }, (error) => {
         // 异常处理
-        console.log("失败");
+        alert("提交失败！");
+        //注册成功后刷新网页
+        location.reload();
     });
+
+    //注册成功后刷新网页
+    setTimeout(function() {
+        location.reload();
+    }, 2500);
 }
 
 //学堂新生报名表
